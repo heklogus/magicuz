@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vite App</title>
+</head>
+
+<body class="bg-secondary text-white">
+  <header class="bg-[url('/img/bg.png')] bg-center bg-no-repeat bg-cover w-full h-screen">
+    <nav class="container mx-auto p-4">
+      <div class="flex flex-row items-center justify-between">
+        <img src="/img/logo.png" alt="" class="flex h-20">
+        <div class="flex flex-row items-center justify-center gap-4">
+          <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
+            <svg class="h-10 w-10 fill-primary/50 hover:fill-primary transition ease-in-out duration-300"
+              xmlns="http://www.w3.org/2000/svg" xml:space="preserve" viewBox="0 0 56.693 56.693">
+              <path
+                d="M40.43 21.739h-7.645v-5.014c0-1.883 1.248-2.322 2.127-2.322h5.395V6.125l-7.43-.029c-8.248 0-10.125 6.174-10.125 10.125v5.518h-4.77v8.53h4.77v24.137h10.033V30.269h6.77l.875-8.53z" />
+            </svg>
+          </a>
+
+          <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
+            <svg class="h-10 w-10 fill-primary/50 hover:fill-primary transition ease-in-out duration-300"
+              xmlns="http://www.w3.org/2000/svg" xml:space="preserve" fill-rule="evenodd" stroke-linejoin="round"
+              stroke-miterlimit="2" clip-rule="evenodd" viewBox="0 0 512 512">
+              <path fill-rule="nonzero"
+                d="M161.014 464.013c193.208 0 298.885-160.071 298.885-298.885 0-4.546 0-9.072-.307-13.578A213.737 213.737 0 0 0 512 97.176a209.705 209.705 0 0 1-60.334 16.527 105.426 105.426 0 0 0 46.182-58.102 210.548 210.548 0 0 1-66.703 25.498 105.184 105.184 0 0 0-76.593-33.112c-57.682 0-105.145 47.464-105.145 105.144 0 8.002.914 15.979 2.722 23.773-84.418-4.231-163.18-44.161-216.494-109.752-27.724 47.726-13.379 109.576 32.522 140.226A104.258 104.258 0 0 1 20.48 194.23v1.331c.014 49.814 35.447 93.111 84.275 102.974a104.898 104.898 0 0 1-47.431 1.802c13.727 42.685 53.311 72.108 98.14 72.95a210.83 210.83 0 0 1-130.458 45.056A213.688 213.688 0 0 1 0 416.827a297.42 297.42 0 0 0 161.014 47.104" />
+            </svg>
+          </a>
+
+          <a href="https://youtube.com" target="_blank" rel="noopener noreferrer">
+            <svg class="h-10 w-10 fill-primary/50 hover:fill-primary transition ease-in-out duration-300"
+              xmlns="http://www.w3.org/2000/svg" xml:space="preserve" fill-rule="evenodd" stroke-linejoin="round"
+              stroke-miterlimit="2" clip-rule="evenodd" viewBox="0 0 512 512">
+              <path fill-rule="nonzero"
+                d="M501.303 132.765c-5.887-22.03-23.235-39.377-45.265-45.265C416.106 76.8 256 76.8 256 76.8s-160.107 0-200.039 10.7c-22.026 5.888-39.377 23.235-45.264 45.265C0 172.693 0 256.003 0 256.003s0 83.308 10.697 123.232c5.887 22.03 23.238 39.382 45.264 45.269C95.893 435.2 256 435.2 256 435.2s160.106 0 200.038-10.696c22.03-5.887 39.378-23.239 45.265-45.269 10.696-39.924 10.696-123.232 10.696-123.232s0-83.31-10.696-123.238ZM204.797 332.804V179.201l133.019 76.802-133.019 76.801Z" />
+            </svg>
+          </a>
+
+          <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
+            <svg class="h-10 w-10 fill-primary/50 hover:fill-primary transition ease-in-out duration-300"
+              xmlns="http://www.w3.org/2000/svg" xml:space="preserve" viewBox="0 0 56.7 56.7">
+              <path
+                d="M28.2 16.7c-7 0-12.8 5.7-12.8 12.8s5.7 12.8 12.8 12.8S41 36.5 41 29.5s-5.8-12.8-12.8-12.8zm0 21c-4.5 0-8.2-3.7-8.2-8.2s3.7-8.2 8.2-8.2 8.2 3.7 8.2 8.2-3.7 8.2-8.2 8.2z" />
+              <circle cx="41.5" cy="16.4" r="2.9" />
+              <path
+                d="M49 8.9c-2.6-2.7-6.3-4.1-10.5-4.1H17.9c-8.7 0-14.5 5.8-14.5 14.5v20.5c0 4.3 1.4 8 4.2 10.7 2.7 2.6 6.3 3.9 10.4 3.9h20.4c4.3 0 7.9-1.4 10.5-3.9 2.7-2.6 4.1-6.3 4.1-10.6V19.3c0-4.2-1.4-7.8-4-10.4zm-.4 31c0 3.1-1.1 5.6-2.9 7.3s-4.3 2.6-7.3 2.6H18c-3 0-5.5-.9-7.3-2.6C8.9 45.4 8 42.9 8 39.8V19.3c0-3 .9-5.5 2.7-7.3 1.7-1.7 4.3-2.6 7.3-2.6h20.6c3 0 5.5.9 7.3 2.7 1.7 1.8 2.7 4.3 2.7 7.2v20.6z" />
+            </svg>
+          </a>
+
+          <a href="https://twitch.tv" target="_blank" rel="noopener noreferrer">
+            <svg class="h-10 w-10 fill-primary/50 hover:fill-primary transition ease-in-out duration-300"
+              xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+              <path fill="none" d="M0 0h24v24H0z" />
+              <path
+                d="M21 3v11.74l-4.696 4.695h-3.913l-2.437 2.348H6.913v-2.348H3V6.13L4.227 3H21zm-1.565 1.565H6.13v11.74h3.13v2.347l2.349-2.348h4.695l3.13-3.13V4.565zm-3.13 3.13v4.696h-1.566V7.696h1.565zm-3.914 0v4.696h-1.565V7.696h1.565z" />
+            </svg>
+          </a>
+
+          <a href="https://discord.com" target="_blank" rel="noopener noreferrer">
+            <svg class="h-10 w-10 fill-primary/50 hover:fill-primary transition ease-in-out duration-300"
+              xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512">
+              <path
+                d="M524.531 69.836a1.5 1.5 0 0 0-.764-.7A485.065 485.065 0 0 0 404.081 32.03a1.816 1.816 0 0 0-1.923.91 337.461 337.461 0 0 0-14.9 30.6 447.848 447.848 0 0 0-134.426 0 309.541 309.541 0 0 0-15.135-30.6 1.89 1.89 0 0 0-1.924-.91 483.689 483.689 0 0 0-119.688 37.107 1.712 1.712 0 0 0-.788.676C39.068 183.651 18.186 294.69 28.43 404.354a2.016 2.016 0 0 0 .765 1.375 487.666 487.666 0 0 0 146.825 74.189 1.9 1.9 0 0 0 2.063-.676A348.2 348.2 0 0 0 208.12 430.4a1.86 1.86 0 0 0-1.019-2.588 321.173 321.173 0 0 1-45.868-21.853 1.885 1.885 0 0 1-.185-3.126 251.047 251.047 0 0 0 9.109-7.137 1.819 1.819 0 0 1 1.9-.256c96.229 43.917 200.41 43.917 295.5 0a1.812 1.812 0 0 1 1.924.233 234.533 234.533 0 0 0 9.132 7.16 1.884 1.884 0 0 1-.162 3.126 301.407 301.407 0 0 1-45.89 21.83 1.875 1.875 0 0 0-1 2.611 391.055 391.055 0 0 0 30.014 48.815 1.864 1.864 0 0 0 2.063.7A486.048 486.048 0 0 0 610.7 405.729a1.882 1.882 0 0 0 .765-1.352c12.264-126.783-20.532-236.912-86.934-334.541ZM222.491 337.58c-28.972 0-52.844-26.587-52.844-59.239s23.409-59.241 52.844-59.241c29.665 0 53.306 26.82 52.843 59.239 0 32.654-23.41 59.241-52.843 59.241Zm195.38 0c-28.971 0-52.843-26.587-52.843-59.239s23.409-59.241 52.843-59.241c29.667 0 53.307 26.82 52.844 59.239 0 32.654-23.177 59.241-52.844 59.241Z" />
+            </svg>
+          </a>
+
+          <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
+            <svg class="h-10 w-10 fill-primary/50 hover:fill-primary transition ease-in-out duration-300"
+              xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40">
+              <path d="M23.75 9a8.25 8.25 0 1 1-8.26 8.26A8.26 8.26 0 0 1 23.75 9M9 31h4V9H9Z" />
+            </svg>
+          </a>
+        </div>
+      </div>
+    </nav>
+    <div class="container mx-auto w-full h-full">
+      <div class="flex flex-row items-center justify-center h-full w-full">
+        <div class="flex flex-col gap-12 pb-36 w-1/3">
+          <h1 class="text-5xl font-bold text-primary">Magicuz Gold Guide</h1>
+          <p class="text-lg">
+            A guide written by one of the richest players <br>
+            in World of warcraft. <br>
+            <br>
+            Record of 4.6 Billion Liquid Gold <br>
+            and over 8 Billion in Net Worth.
+          </p>
+          <a class="px-6 py-4 bg-primary border-2 border-primary hover:bg-transparent hover:text-primary transition ease-in-out duration-300 text-xl w-fit rounded-xl text-secondary"
+            href="">
+            Buy Gold Guide
+          </a>
+        </div>
+        <div class="flex h-full w-1/2">
+          <img class="max-h-full object-contain" src="/img/Book2.png" alt="Gold Guide Book">
+        </div>
+      </div>
+    </div>
+  </header>
+  <main class="container mx-auto">
+    <section class="flex py-24">
+      <div class="flex flex-row items-center justify-center h-full w-full">
+        <div class="flex h-full w-1/2">
+          <img class="h-[640px] object-contain rounded-xl" src="/img/mailbox.png" alt="Gold Guide Book">
+        </div>
+        <div class="flex flex-col gap-12 w-1/3">
+          <h1 class="text-5xl font-bold text-primary">An Adventure</h1>
+          <p class="text-lg">
+            Make more gold than you can imagine, Buy everything <br>
+            from Game Time to Rare mounts. <br>
+            <br>
+            Everything within your reach!
+          </p>
+          <a class="px-6 py-4 bg-primary border-2 border-primary hover:bg-transparent hover:text-primary transition ease-in-out duration-300 text-xl w-fit rounded-xl text-secondary"
+            href="">
+            Start your Adventure
+          </a>
+        </div>
+      </div>
+    </section>
+    <section class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 items-center gap-8 py-24">
+      <a class="flex opacity-60 hover:opacity-100 transition ease-in-out duration-300 hover:shadow-xl hover:shadow-white/10 rounded-xl hover:-translate-y-1"
+        href="">
+        <img src="/img/buy-once.png" alt="">
+      </a>
+      <a class="flex opacity-60 hover:opacity-100 transition ease-in-out duration-300 hover:shadow-xl hover:shadow-white/10 rounded-xl hover:-translate-y-1"
+        href="">
+        <img src="/img/join-discord.png" alt="">
+      </a>
+      <a class="flex opacity-60 hover:opacity-100 transition ease-in-out duration-300 hover:shadow-xl hover:shadow-white/10 rounded-xl hover:-translate-y-1"
+        href="">
+        <img src="/img/never-pay.png" alt="">
+      </a>
+      <a class="flex opacity-60 hover:opacity-100 transition ease-in-out duration-300 hover:shadow-xl hover:shadow-white/10 rounded-xl hover:-translate-y-1"
+        href="">
+        <img src="/img/level-up.png" alt="">
+      </a>
+    </section>
+    <section class="flex flex-row items-center justify-center py-24">
+      <div class="flex h-full w-1/2">
+        <img class="h-[720px] object-contain rounded-xl" src="/img/gold-history.png" alt="Gold Guide Book">
+      </div>
+      <div class="flex flex-col gap-12 w-1/3">
+        <h1 class="text-5xl font-bold text-primary">An Adventure</h1>
+        <p class="text-lg">
+          Make more gold than you can imagine, Buy everything <br>
+          from Game Time to Rare mounts. <br>
+          <br>
+          Everything within your reach!
+        </p>
+        <a class="px-6 py-4 bg-primary border-2 border-primary hover:bg-transparent hover:text-primary transition ease-in-out duration-300 text-xl w-fit rounded-xl text-secondary"
+          href="">
+          Start your Adventure
+        </a>
+      </div>
+    </section>
+  </main>
+  <script type="module" src="/src/main.js"></script>
+</body>
+
+</html>
