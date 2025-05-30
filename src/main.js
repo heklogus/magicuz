@@ -22,3 +22,29 @@ document.addEventListener('DOMContentLoaded', () => {
 // No need to replace the HTML content since we're using the one from index.html
 // Just add any JavaScript functionality you need here
 console.log('Tailwind CSS is ready to use!')
+
+// Slideshow functionality
+document.addEventListener('DOMContentLoaded', () => {
+  const slides = document.querySelectorAll('#slideshow .slide');
+  if (!slides.length) return;
+  let currentSlide = 0;
+  function showSlide(index) {
+    slides.forEach((slide, i) => {
+      if (i === index) {
+        slide.classList.remove('opacity-0');
+        slide.classList.add('opacity-100');
+      } else {
+        slide.classList.remove('opacity-100');
+        slide.classList.add('opacity-0');
+      }
+    });
+    currentSlide = index;
+  }
+  // Show first slide
+  showSlide(0);
+  // Loop slides every 3 seconds
+  setInterval(() => {
+    const nextIndex = (currentSlide + 1) % slides.length;
+    showSlide(nextIndex);
+  }, 3000);
+});
