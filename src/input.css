@@ -1,0 +1,90 @@
+@import "tailwindcss";
+
+@theme {
+    --color-primary: #FFC400;
+    --color-secondary: #292727;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-15px);
+  }
+}
+
+.animate-float {
+  animation: float 4s ease-in-out infinite;
+}
+
+/* Fade-in on scroll — JS adds .fade-ready, so content is visible without JS */
+.fade-ready .fade-in {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+}
+
+.fade-ready .fade-in.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Add responsive container padding */
+.container {
+  @apply px-4;
+}
+
+/* Responsive typography */
+@layer base {
+  html {
+    font-size: 16px;
+  }
+
+  @media (max-width: 768px) {
+    html {
+      font-size: 15px;
+    }
+  }
+
+  @media (max-width: 640px) {
+    html {
+      font-size: 14px;
+    }
+  }
+}
+
+/* Mobile menu transition */
+#mobileMenu {
+  transition: all 0.3s ease-in-out;
+}
+
+.slideshow-container img:nth-child(4) {
+    animation-delay: 12s;
+}
+
+@keyframes fade {
+    0% {
+        opacity: 0;
+    }
+
+    5% {
+        opacity: 1;
+    }
+
+    25% {
+        opacity: 1;
+    }
+
+    30% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}

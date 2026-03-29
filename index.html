@@ -3,20 +3,44 @@
 
 <head>
   <meta charset="UTF-8" />
-  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Vite App</title>
+  <title>Magicuz Gold Guide</title>
+  <link rel="icon" type="image/png" href="/favicon/favicon-96x96.png" sizes="96x96" />
+  <link rel="icon" type="image/svg+xml" href="/favicon/favicon.svg" />
+  <link rel="shortcut icon" href="/favicon/favicon.ico" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png" />
+  <meta name="apple-mobile-web-app-title" content="Magicuz Gold Guide" />
+  <link rel="manifest" href="/favicon/site.webmanifest" />
+  <meta name="description" content="The World First WoW Billionaire's Gold Guide. Learn proven strategies to earn millions of gold in World of Warcraft from one of the richest players ever." />
+
+  <link rel="stylesheet" href="/src/output.css">
+
+  <!-- Social preview meta tags -->
+  <meta property="og:title" content="Magicuz Gold Guide" />
+  <meta property="og:description" content="World First WoW Billionaire's Gold Guide!" />
+  <meta property="og:image" content="/public/img/banner.png" />
+  <meta property="og:type" content="website" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Magicuz Gold Guide" />
+  <meta name="twitter:description" content="World First WoW Billionaire's Gold Guide!" />
+  <meta name="twitter:image" content="/public/img/banner.png" />
 </head>
 
-<body class="bg-[#1c1b1b] text-white">
-  <header class="bg-[url('/img/bg.png')] bg-center bg-no-repeat bg-cover w-full min-h-screen">
-    <nav class="container mx-auto p-4">
+<body class="bg-[#0a0a0a] text-white">
+  <header class="relative w-full min-h-[70vh] overflow-hidden">
+    <!-- Video Background -->
+    <video class="absolute inset-0 w-full h-full object-cover" autoplay muted loop playsinline>
+      <source src="/public/img/hero-bg.webm" type="video/webm">
+    </video>
+    <!-- Dark Overlay -->
+    <div class="absolute inset-0 bg-gradient-to-b from-black/70 via-black/50 to-black/80"></div>
+    <nav class="relative container mx-auto p-4">
       <!-- Mobile: Logo centered, tablet/desktop: Logo left, social right -->
       <div class="flex flex-row items-center justify-center md:justify-between">
-        <img src="/img/logo.png" alt="" class="flex h-[75px] md:h-20">
+        <img src="/public/img/logo.png" alt="Magicuz Gold Guide" class="flex h-[75px] md:h-20">
         <!-- Desktop navigation -->
         <div class="hidden md:flex flex-row items-center justify-center gap-2 lg:gap-4">
-          <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.facebook.com/MagicuzGoldGuide" target="_blank" rel="noopener noreferrer">
             <svg class="h-8 w-8 fill-primary/50 hover:fill-primary transition ease-in-out duration-300"
               xmlns="http://www.w3.org/2000/svg" xml:space="preserve" viewBox="0 0 56.693 56.693">
               <path
@@ -24,7 +48,7 @@
             </svg>
           </a>
 
-          <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
+          <a href="https://twitter.com/MagicuzGold" target="_blank" rel="noopener noreferrer">
             <svg class="h-8 w-8 fill-primary/50 hover:fill-primary transition ease-in-out duration-300"
               xmlns="http://www.w3.org/2000/svg" xml:space="preserve" fill-rule="evenodd" stroke-linejoin="round"
               stroke-miterlimit="2" clip-rule="evenodd" viewBox="0 0 512 512">
@@ -33,7 +57,8 @@
             </svg>
           </a>
 
-          <a href="https://youtube.com" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.youtube.com/channel/UCzekTw17OGqOdwO9mFzBwFA?sub_confirmation=1" target="_blank"
+            rel="noopener noreferrer">
             <svg class="h-8 w-8 fill-primary/50 hover:fill-primary transition ease-in-out duration-300"
               xmlns="http://www.w3.org/2000/svg" xml:space="preserve" fill-rule="evenodd" stroke-linejoin="round"
               stroke-miterlimit="2" clip-rule="evenodd" viewBox="0 0 512 512">
@@ -42,7 +67,7 @@
             </svg>
           </a>
 
-          <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
+          <!-- <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
             <svg class="h-8 w-8 fill-primary/50 hover:fill-primary transition ease-in-out duration-300"
               xmlns="http://www.w3.org/2000/svg" xml:space="preserve" viewBox="0 0 56.7 56.7">
               <path
@@ -51,9 +76,9 @@
               <path
                 d="M49 8.9c-2.6-2.7-6.3-4.1-10.5-4.1H17.9c-8.7 0-14.5 5.8-14.5 14.5v20.5c0 4.3 1.4 8 4.2 10.7 2.7 2.6 6.3 3.9 10.4 3.9h20.4c4.3 0 7.9-1.4 10.5-3.9 2.7-2.6 4.1-6.3 4.1-10.6V19.3c0-4.2-1.4-7.8-4-10.4zm-.4 31c0 3.1-1.1 5.6-2.9 7.3s-4.3 2.6-7.3 2.6H18c-3 0-5.5-.9-7.3-2.6C8.9 45.4 8 42.9 8 39.8V19.3c0-3 .9-5.5 2.7-7.3 1.7-1.7 4.3-2.6 7.3-2.6h20.6c3 0 5.5.9 7.3 2.7 1.7 1.8 2.7 4.3 2.7 7.2v20.6z" />
             </svg>
-          </a>
+          </a> -->
 
-          <a href="https://twitch.tv" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.twitch.tv/magicuz/about" target="_blank" rel="noopener noreferrer">
             <svg class="h-8 w-8 fill-primary/50 hover:fill-primary transition ease-in-out duration-300"
               xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
               <path fill="none" d="M0 0h24v24H0z" />
@@ -62,7 +87,7 @@
             </svg>
           </a>
 
-          <a href="https://discord.com" target="_blank" rel="noopener noreferrer">
+          <a href="https://discord.gg/w7ZejEUs8H" target="_blank" rel="noopener noreferrer">
             <svg class="h-8 w-8 fill-primary/50 hover:fill-primary transition ease-in-out duration-300"
               xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512">
               <path
@@ -70,7 +95,7 @@
             </svg>
           </a>
 
-          <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.patreon.com/c/user?u=45971339" target="_blank" rel="noopener noreferrer">
             <svg class="h-8 w-8 fill-primary/50 hover:fill-primary transition ease-in-out duration-300"
               xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40">
               <path d="M23.75 9a8.25 8.25 0 1 1-8.26 8.26A8.26 8.26 0 0 1 23.75 9M9 31h4V9H9Z" />
@@ -79,182 +104,507 @@
         </div>
       </div>
     </nav>
-    <div class="container mx-auto w-full h-full">
-      <div class="flex flex-col lg:flex-row items-center justify-center h-full w-full px-4 py-12 md:py-0">
-        <div class="flex flex-col gap-6 md:gap-12 w-full lg:w-1/2 xl:w-1/3 text-center lg:text-left">
-          <h1 class="text-4xl lg:text-5xl font-bold text-primary">Magicuz Gold Guide</h1>
-          <p class="text-base md:text-lg">
+    <div class="relative container mx-auto w-full h-full flex flex-col justify-center min-h-[calc(70vh-100px)]">
+      <div class="flex flex-col lg:flex-row items-center justify-center h-full w-full px-4 py-16 md:py-0">
+        <div class="flex flex-col gap-6 md:gap-8 w-full lg:w-1/2 xl:w-1/3 text-center lg:text-left">
+          <p class="text-sm md:text-base uppercase tracking-widest text-primary/80 font-semibold">World First WoW Billionaire</p>
+          <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold text-white leading-tight">Magicuz <span class="text-primary">Gold Guide</span></h1>
+          <p class="text-base md:text-lg text-gray-300 leading-relaxed">
             A guide written by one of the richest players
-            in World of warcraft. <br class="hidden md:block">
-            <br>
-            Record of 4.6 Billion Liquid Gold <br class="hidden md:block">
-            and over 8 Billion in Net Worth.
+            in World of Warcraft.
+            <br class="hidden md:block"><br>
+            <span class="font-semibold text-white">
+              Record of 4.6 Billion Liquid Gold<br class="hidden md:block">
+              and over 8 Billion in Net Worth.
+            </span>
           </p>
-          <div class="flex justify-center lg:justify-start">
-            <a class="px-4 py-3 md:px-6 md:py-4 bg-primary border-2 border-primary hover:bg-transparent hover:text-primary transition ease-in-out duration-300 text-lg font-medium md:text-xl w-fit rounded-xl text-secondary"
-              href="">
+          <div class="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
+            <a class="px-8 py-4 bg-primary border-2 border-primary hover:bg-primary/90 transition ease-in-out duration-300 text-lg font-bold md:text-xl w-fit rounded-xl text-secondary shadow-lg shadow-primary/20"
+              href="https://magicuz.gumroad.com/">
               Buy Gold Guide
+            </a>
+            <a class="px-8 py-4 border-2 border-white/20 hover:border-primary/60 hover:text-primary transition ease-in-out duration-300 text-lg font-semibold md:text-xl w-fit rounded-xl text-white/80"
+              href="https://discord.gg/w7ZejEUs8H">
+              Join Discord
             </a>
           </div>
         </div>
         <div class="flex justify-center mt-8 lg:mt-0 h-full w-full lg:w-1/2">
-          <img class="max-h-[60vh] lg:max-h-full object-contain animate-float" src="/img/Book2.png"
-            alt="Gold Guide Book">
+          <img class="max-h-[50vh] lg:max-h-[70vh] object-contain animate-float drop-shadow-2xl" src="/public/img/hero-book2.webp"
+            alt="Magicuz Gold Guide Book">
         </div>
       </div>
     </div>
-  </header>
-  <section
-    class="flex flex-col items-center justify-center gap-6 text-center pt-12 md:pt-24 px-4 bg-gradient-to-b from-white/5 to-[#1c1b1b]">
-    <h2 class="text-3xl md:text-4xl font-medium text-primary">Trusted by</h2>
-    <div class="flex flex-col md:flex-row items-center justify-evenly w-full gap-8 md:gap-4">
-      <a class="flex opacity-50 hover:opacity-100 transition ease-in-out duration-300"
-        href="https://echoesports.gg/home">
-        <img class="flex h-18 md:h-24" src="/img/icons/echo.webp" alt="">
-      </a>
-      <a class="flex opacity-50 hover:opacity-100 transition ease-in-out duration-300" href="https://www.method.gg/">
-        <img class="flex h-18 md:h-24" src="/img/icons/method.webp" alt="">
-      </a>
-      <a class="flex opacity-50 hover:opacity-100 transition ease-in-out duration-300"
-        href="https://www.icy-veins.com/">
-        <img class="flex h-18 md:h-24" src="/img/icons/icy-veins.webp" alt="">
-      </a>
+    <!-- Upward glow -->
+    <div class="absolute bottom-0 left-0 right-0 h-[220px] pointer-events-none" style="background: radial-gradient(ellipse 80% 100% at 50% 100%, rgba(255,196,0,0.22) 0%, rgba(255,196,0,0.06) 55%, transparent 100%);"></div>
+    <!-- Scroll indicator -->
+    <div class="absolute bottom-6 left-1/2 -translate-x-1/2 animate-bounce">
+      <svg class="w-8 h-8 text-primary/50" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+      </svg>
     </div>
-  </section>
-
-  <hr class="container mx-auto opacity-10 mt-12">
-
-  <main class="container mx-auto">
-    <section class="flex py-12 md:py-24 px-4">
-      <div class="flex flex-col-reverse lg:flex-row items-center justify-center w-full gap-8 lg:gap-0">
-        <div class="flex justify-center w-full lg:w-1/2">
-          <img class="h-full md:h-[640px] object-contain rounded-xl" src="/img/mailbox.png" alt="Gold Guide Book">
+  </header>
+  <main>
+    <!-- Trusted By Section -->
+    <section class="py-20 border-b border-white/5">
+      <div class="container mx-auto px-4">
+        <p class="text-center text-lg md:text-xl uppercase tracking-widest text-[#888888] mb-14 fade-in">Trusted by</p>
+        <div class="flex items-center justify-center gap-16 md:gap-28 fade-in">
+          <a href="https://method.gg" target="_blank" rel="noopener noreferrer" class="flex items-center justify-center w-48 md:w-64"><img src="/public/img/icons/method.svg" alt="Method" class="h-16 md:h-24 opacity-60 hover:opacity-100 transition-opacity duration-300"></a>
+          <a href="https://www.twitch.tv/whaazz/" target="_blank" rel="noopener noreferrer" class="flex items-center justify-center w-48 md:w-64"><img src="/public/img/icons/whaazz.svg" alt="Whaazz" class="h-16 md:h-24 opacity-60 hover:opacity-100 transition-opacity duration-300 brightness-0 invert"></a>
+          <a href="https://discord.com/invite/dawneu" target="_blank" rel="noopener noreferrer" class="flex items-center justify-center w-48 md:w-64"><img src="/public/img/icons/dawn.svg" alt="Dawn" class="h-16 md:h-24 opacity-60 hover:opacity-100 transition-opacity duration-300"></a>
         </div>
-        <div class="flex flex-col gap-6 md:gap-12 w-full lg:w-1/2 xl:w-1/3 text-center lg:text-left">
-          <h1 class="text-4xl lg:text-5xl font-bold text-primary">An Adventure</h1>
-          <p class="text-base md:text-lg">
-            Make more gold than you can imagine, Buy everything
-            from Game Time to Rare mounts. <br class="hidden md:block">
-            <br>
-            Everything within your reach!
+      </div>
+    </section>
+
+    <section class="container mx-auto flex py-16 px-4">
+      <div class="flex flex-col-reverse lg:flex-row items-center justify-center w-full gap-16 lg:gap-24">
+        <div class="flex justify-center w-full lg:w-1/2 fade-in">
+          <img class="h-full md:h-[640px] object-contain rounded-xl" src="/public/img/magicuz_spectral_2.webp"
+            alt="Magicuz WoW character with Spectral Tiger">
+        </div>
+        <div class="flex flex-col gap-6 md:gap-8 w-full lg:w-1/2 text-center lg:text-left fade-in">
+          <h2 class="text-4xl lg:text-5xl font-bold text-primary">Who is Magicuz?</h2>
+          <p class="text-base md:text-lg text-gray-300 leading-relaxed">
+            Magicuz is one of the richest players in World of Warcraft history, with a record of
+            <span class="font-semibold text-white">4.6 billion liquid gold</span> and over
+            <span class="font-semibold text-white">8 billion in net worth</span>.
           </p>
-          <div class="flex justify-center lg:justify-start">
-            <a class="px-4 py-3 md:px-6 md:py-4 bg-primary border-2 border-primary hover:bg-transparent hover:text-primary transition ease-in-out duration-300 text-lg md:text-xl font-medium w-fit rounded-xl text-secondary"
-              href="">
-              Start your Adventure
-            </a>
+          <div class="flex flex-col sm:flex-row gap-6 sm:gap-10 mt-2">
+            <div class="flex items-center gap-3">
+              <svg class="w-10 h-10 fill-primary shrink-0" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256"><path d="M230.33,141.06a24.34,24.34,0,0,0-18.61-4.77C230.5,117.33,240,98.48,240,80c0-26.47-21.29-48-47.46-48A47.58,47.58,0,0,0,156,48.75,47.58,47.58,0,0,0,119.46,32C93.29,32,72,53.53,72,80c0,11,3.24,21.69,10.06,33a31.87,31.87,0,0,0-14.75,8.4L44.69,144H16A16,16,0,0,0,0,160v40a16,16,0,0,0,16,16H120a7.93,7.93,0,0,0,1.94-.24l64-16a6.94,6.94,0,0,0,1.19-.4L226,182.82l.44-.2a24.6,24.6,0,0,0,3.93-41.56Zm-10.9,27.15-38,16.18L119,200H56V155.31l22.63-22.62A15.86,15.86,0,0,1,89.94,128H140a12,12,0,0,1,0,24H112a8,8,0,0,0,0,16h32a8.32,8.32,0,0,0,1.79-.2l67-15.41.31-.08a8.6,8.6,0,0,1,6.3,15.9Z"/></svg>
+              <div class="flex flex-col">
+                <span class="text-base font-semibold text-white">1B+ Gold</span>
+                <span class="text-sm text-gray-400">Given away</span>
+              </div>
+            </div>
+            <div class="flex items-center gap-3">
+              <svg class="w-10 h-10 fill-primary shrink-0" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><path d="M524.531 69.836a1.5 1.5 0 0 0-.764-.7A485.065 485.065 0 0 0 404.081 32.03a1.816 1.816 0 0 0-1.923.91 337.461 337.461 0 0 0-14.9 30.6 447.848 447.848 0 0 0-134.426 0 309.541 309.541 0 0 0-15.135-30.6 1.89 1.89 0 0 0-1.924-.91 483.689 483.689 0 0 0-119.688 37.107 1.712 1.712 0 0 0-.788.676C39.068 183.651 18.186 294.69 28.43 404.354a2.016 2.016 0 0 0 .765 1.375 487.666 487.666 0 0 0 146.825 74.189 1.9 1.9 0 0 0 2.063-.676A348.2 348.2 0 0 0 208.12 430.4a1.86 1.86 0 0 0-1.019-2.588 321.173 321.173 0 0 1-45.868-21.853 1.885 1.885 0 0 1-.185-3.126 251.047 251.047 0 0 0 9.109-7.137 1.819 1.819 0 0 1 1.9-.256c96.229 43.917 200.41 43.917 295.5 0a1.812 1.812 0 0 1 1.924.233 234.533 234.533 0 0 0 9.132 7.16 1.884 1.884 0 0 1-.162 3.126 301.407 301.407 0 0 1-45.89 21.83 1.875 1.875 0 0 0-1 2.611 391.055 391.055 0 0 0 30.014 48.815 1.864 1.864 0 0 0 2.063.7A486.048 486.048 0 0 0 610.7 405.729a1.882 1.882 0 0 0 .765-1.352c12.264-126.783-20.532-236.912-86.934-334.541ZM222.491 337.58c-28.972 0-52.844-26.587-52.844-59.239s23.409-59.241 52.844-59.241c29.665 0 53.306 26.82 52.843 59.239 0 32.654-23.41 59.241-52.843 59.241Zm195.38 0c-28.971 0-52.843-26.587-52.843-59.239s23.409-59.241 52.843-59.241c29.667 0 53.307 26.82 52.844 59.239 0 32.654-23.177 59.241-52.844 59.241Z"/></svg>
+              <div class="flex flex-col">
+                <span class="text-base font-semibold text-white">8,300+ Members</span>
+                <span class="text-sm text-gray-400">On Discord</span>
+              </div>
+            </div>
+            <div class="flex items-center gap-3">
+              <svg class="w-10 h-10 fill-primary shrink-0" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50"><path d="M 25 2 C 20.793 2 16.851455 3.1305957 13.458984 5.1035156 C 12.974346 5.3853613 12.500438 5.684625 12.039062 6 L 6 6 L 6 12.039062 C 3.477 15.730063 2 20.192 2 25 C 2 29.808 3.477 34.269937 6 37.960938 L 6 44 L 12.039062 44 C 15.730063 46.523 20.192 48 25 48 C 29.808 48 34.269937 46.523 37.960938 44 L 44 44 L 44 37.960938 C 44.315375 37.499562 44.614639 37.025654 44.896484 36.541016 C 46.869404 33.148545 48 29.207 48 25 C 48 24.399 47.976955 23.804201 47.931641 23.214844 C 47.614439 19.089342 46.207625 15.268688 44 12.039062 L 44 6 L 37.960938 6 C 34.269938 3.477 29.808 2 25 2 z M 10.998047 14.958984 L 18.699219 14.958984 C 18.349219 15.841984 18.466219 17.609187 18.699219 18.492188 L 21.265625 26.324219 L 25 16.726562 L 28.732422 26.324219 L 31.300781 18.492188 C 31.533781 17.609188 31.650781 15.841984 31.300781 14.958984 L 39 14.958984 C 38.176 15.965984 37.583953 17.104453 37.251953 18.314453 L 34.099609 32.507812 C 33.866609 33.390813 33.982031 35.156062 34.332031 36.039062 L 26.865234 36.039062 C 26.865234 36.039062 27.006234 35.465438 26.865234 34.273438 C 26.725234 33.071438 25 28.091797 25 28.091797 C 25 28.091797 23.273813 33.072437 23.132812 34.273438 C 22.991813 35.465438 23.132812 36.039063 23.132812 36.039062 L 15.666016 36.039062 C 16.016016 35.156062 16.132438 33.388859 15.898438 32.505859 L 12.748047 18.314453 C 12.416047 17.104453 11.822047 15.965984 10.998047 14.958984 z"/></svg>
+              <div class="flex flex-col">
+                <span class="text-base font-semibold text-white">Goldmaking</span>
+                <span class="text-sm text-gray-400">Since Vanilla</span>
+              </div>
+            </div>
           </div>
         </div>
       </div>
     </section>
-    <section class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 items-center gap-6 md:gap-8 py-12 md:py-24 px-4">
-      <a class="flex opacity-75 hover:opacity-100 transition ease-in-out duration-300 hover:shadow-xl hover:shadow-white/10 rounded-xl hover:-translate-y-1"
-        href="">
-        <img src="/img/buy-once.png" alt="" class="w-full">
-      </a>
-      <a class="flex opacity-75 hover:opacity-100 transition ease-in-out duration-300 hover:shadow-xl hover:shadow-white/10 rounded-xl hover:-translate-y-1"
-        href="">
-        <img src="/img/join-discord.png" alt="" class="w-full">
-      </a>
-      <a class="flex opacity-75 hover:opacity-100 transition ease-in-out duration-300 hover:shadow-xl hover:shadow-white/10 rounded-xl hover:-translate-y-1"
-        href="">
-        <img src="/img/never-pay.png" alt="" class="w-full">
-      </a>
-      <a class="flex opacity-75 hover:opacity-100 transition ease-in-out duration-300 hover:shadow-xl hover:shadow-white/10 rounded-xl hover:-translate-y-1"
-        href="">
-        <img src="/img/level-up.png" alt="" class="w-full">
-      </a>
-    </section>
-    <section class="flex flex-col-reverse lg:flex-row items-center justify-center py-12 md:py-24 px-4 gap-8 lg:gap-0">
-      <div class="flex justify-center w-full lg:w-1/2">
-        <img class="h-full md:h-[720px] object-contain rounded-xl" src="/img/gold-history.png" alt="Gold Guide Book">
-      </div>
-      <div class="flex flex-col items-center justify-center text-center gap-6 md:gap-12 w-full lg:w-1/2 xl:w-1/3">
-        <h1 class="text-4xl lg:text-5xl font-bold text-primary">My Gold History</h1>
-        <p class="text-base md:text-lg">
-          I've played World of Warcraft ever since Vanilla. <br class="hidden md:block">
-          Having 1000g back then, to 4.6 billion in Battle for Azeroth!
-        </p>
-        <div class="w-full max-w-full overflow-hidden">
-          <iframe class="w-full max-w-[720px] aspect-video" src="https://www.youtube.com/embed/qLIo0ujhKhQ"
-            title="150 Million Gold in One Month - Shadowlands World of Warcraft" frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <section class="bg-gradient-to-b from-[#111214] to-[#0a0a0a] py-20 md:py-28 w-full shadow-2xl shadow-white/5 px-4">
+      <div class="max-w-6xl mx-auto">
+        <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold text-center text-white mb-4 fade-in">Choose Your <span class="text-primary">Path</span></h2>
+        <p class="text-center text-gray-400 mb-16 md:mb-20 text-base md:text-lg fade-in">Pick the guide that matches your gold-making ambitions</p>
+
+        <!-- 10M Guide -->
+        <div class="flex flex-col md:flex-row items-center gap-10 md:gap-16 mb-20 md:mb-28 fade-in">
+          <div class="w-full md:w-1/2 flex justify-center">
+            <img class="h-96 md:h-[520px] lg:h-[620px] object-contain" src="/public/img/10m_buy2.webp" alt="10 Million Gold Guide">
+          </div>
+          <div class="w-full md:w-1/2 text-center md:text-left">
+            <p class="text-primary font-semibold text-lg md:text-xl mb-3">Wanna learn to play for free?</p>
+            <h3 class="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-2">10.000.000g</h3>
+            <p class="text-gray-400 text-lg mb-3">Gold Guide</p>
+            <div class="flex items-center gap-3 mb-6 justify-center md:justify-start flex-wrap">
+              <p class="text-3xl md:text-4xl font-bold text-primary">$39.99 a year</p>
+              <span class="bg-primary text-secondary text-sm font-bold px-4 py-1.5 rounded-full shadow-lg">Most Popular</span>
+            </div>
+            <p class="text-base md:text-lg text-gray-300 leading-relaxed mb-6">Everything you need to start earning gold and never pay for game time again. Learn the fundamentals of goldmaking from one of the richest players in WoW history.</p>
+            <ul class="text-gray-300 text-left space-y-2.5 mb-8 inline-block">
+              <li class="flex items-center gap-2.5"><svg class="w-5 h-5 fill-primary shrink-0" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>TSM setup walkthrough</li>
+              <li class="flex items-center gap-2.5"><svg class="w-5 h-5 fill-primary shrink-0" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>Beginner-friendly strategies</li>
+              <li class="flex items-center gap-2.5"><svg class="w-5 h-5 fill-primary shrink-0" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>Lifetime free updates</li>
+            </ul>
+            <div>
+              <a class="inline-block px-8 py-4 bg-primary border-2 border-primary hover:bg-transparent hover:text-primary transition ease-in-out duration-300 text-lg font-semibold rounded-xl text-secondary"
+                href="https://magicuz.gumroad.com/l/magicuz">
+                Buy Gold Guide — $39.99 a year
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- 100M Guide -->
+        <div class="flex flex-col-reverse md:flex-row items-center gap-10 md:gap-16 fade-in">
+          <div class="w-full md:w-1/2 text-center md:text-left">
+            <p class="text-primary font-semibold text-lg md:text-xl mb-3">Wanna become a serious Goldmaker?</p>
+            <h3 class="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-2">100.000.000g</h3>
+            <p class="text-gray-400 text-lg mb-3">Gold Guide</p>
+            <p class="text-3xl md:text-4xl font-bold text-primary mb-6">$59.99 a year</p>
+            <p class="text-base md:text-lg text-gray-300 leading-relaxed mb-6">Advanced strategies used by top goldmakers to earn 100+ million gold. Take your goldmaking to the next level with proven methods and in-depth market knowledge.</p>
+            <ul class="text-gray-300 text-left space-y-2.5 mb-8 inline-block">
+              <li class="flex items-center gap-2.5"><svg class="w-5 h-5 fill-primary shrink-0" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>AH flipping strategies</li>
+              <li class="flex items-center gap-2.5"><svg class="w-5 h-5 fill-primary shrink-0" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>Advanced TSM operations</li>
+              <li class="flex items-center gap-2.5"><svg class="w-5 h-5 fill-primary shrink-0" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>Market manipulation techniques</li>
+              <li class="flex items-center gap-2.5"><svg class="w-5 h-5 fill-primary shrink-0" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>Expansion launch gold rushes</li>
+              <li class="flex items-center gap-2.5"><svg class="w-5 h-5 fill-primary shrink-0" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>Lifetime free updates</li>
+            </ul>
+            <div>
+              <a class="inline-block px-8 py-4 bg-primary border-2 border-primary hover:bg-transparent hover:text-primary transition ease-in-out duration-300 text-lg font-semibold rounded-xl text-secondary"
+                href="https://magicuz.gumroad.com/l/MagicuzOne">
+                Buy Gold Guide — $59.99 a year
+              </a>
+            </div>
+          </div>
+          <div class="w-full md:w-1/2 flex justify-center">
+            <img class="h-96 md:h-[520px] lg:h-[620px] object-contain" src="/public/img/100m_buy2.webp" alt="100 Million Gold Guide">
+          </div>
         </div>
       </div>
     </section>
-  </main>
-  <footer class="container mx-auto py-12 px-4">
-    <div class="flex flex-col items-center justify-center gap-8">
-      <img src="/img/logo.png" alt="Logo" class="h-12 sm:h-16">
-      <div class="flex flex-wrap justify-center gap-4">
-        <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
-          <svg class="h-8 w-8 md:h-10 md:w-10 fill-primary/50 hover:fill-primary transition ease-in-out duration-300"
-            xmlns="http://www.w3.org/2000/svg" xml:space="preserve" viewBox="0 0 56.693 56.693">
-            <path
-              d="M40.43 21.739h-7.645v-5.014c0-1.883 1.248-2.322 2.127-2.322h5.395V6.125l-7.43-.029c-8.248 0-10.125 6.174-10.125 10.125v5.518h-4.77v8.53h4.77v24.137h10.033V30.269h6.77l.875-8.53z" />
-          </svg>
+    <section class="container mx-auto py-20 md:py-28 px-4">
+      <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold text-center text-white mb-4 fade-in">What Buyers <span class="text-primary">Say</span></h2>
+      <p class="text-center text-gray-400 mb-12 text-base md:text-lg max-w-2xl mx-auto fade-in">Verified reviews from Gumroad</p>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto">
+        <div class="relative bg-white/5 border border-white/10 rounded-2xl p-8 pt-10 flex flex-col gap-4 fade-in">
+          <span class="absolute -top-5 left-6 text-7xl text-primary/25 font-serif leading-none select-none">&ldquo;</span>
+          <div class="flex gap-1.5 mb-1">
+            <svg class="w-6 h-6 fill-primary drop-shadow-[0_0_3px_rgba(255,196,0,0.4)]" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256"><path d="M234.29,114.85l-45,38.83L203,211.75a16.4,16.4,0,0,1-24.5,17.82L128,198.49,77.47,229.57A16.4,16.4,0,0,1,53,211.75l13.76-58.07-45-38.83A16.46,16.46,0,0,1,31.08,86l59-4.76,22.76-55.08a16.36,16.36,0,0,1,30.27,0l22.75,55.08,59,4.76a16.46,16.46,0,0,1,9.37,28.86Z"/></svg>
+            <svg class="w-6 h-6 fill-primary drop-shadow-[0_0_3px_rgba(255,196,0,0.4)]" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256"><path d="M234.29,114.85l-45,38.83L203,211.75a16.4,16.4,0,0,1-24.5,17.82L128,198.49,77.47,229.57A16.4,16.4,0,0,1,53,211.75l13.76-58.07-45-38.83A16.46,16.46,0,0,1,31.08,86l59-4.76,22.76-55.08a16.36,16.36,0,0,1,30.27,0l22.75,55.08,59,4.76a16.46,16.46,0,0,1,9.37,28.86Z"/></svg>
+            <svg class="w-6 h-6 fill-primary drop-shadow-[0_0_3px_rgba(255,196,0,0.4)]" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256"><path d="M234.29,114.85l-45,38.83L203,211.75a16.4,16.4,0,0,1-24.5,17.82L128,198.49,77.47,229.57A16.4,16.4,0,0,1,53,211.75l13.76-58.07-45-38.83A16.46,16.46,0,0,1,31.08,86l59-4.76,22.76-55.08a16.36,16.36,0,0,1,30.27,0l22.75,55.08,59,4.76a16.46,16.46,0,0,1,9.37,28.86Z"/></svg>
+            <svg class="w-6 h-6 fill-primary drop-shadow-[0_0_3px_rgba(255,196,0,0.4)]" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256"><path d="M234.29,114.85l-45,38.83L203,211.75a16.4,16.4,0,0,1-24.5,17.82L128,198.49,77.47,229.57A16.4,16.4,0,0,1,53,211.75l13.76-58.07-45-38.83A16.46,16.46,0,0,1,31.08,86l59-4.76,22.76-55.08a16.36,16.36,0,0,1,30.27,0l22.75,55.08,59,4.76a16.46,16.46,0,0,1,9.37,28.86Z"/></svg>
+            <svg class="w-6 h-6 fill-primary drop-shadow-[0_0_3px_rgba(255,196,0,0.4)]" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256"><path d="M234.29,114.85l-45,38.83L203,211.75a16.4,16.4,0,0,1-24.5,17.82L128,198.49,77.47,229.57A16.4,16.4,0,0,1,53,211.75l13.76-58.07-45-38.83A16.46,16.46,0,0,1,31.08,86l59-4.76,22.76-55.08a16.36,16.36,0,0,1,30.27,0l22.75,55.08,59,4.76a16.46,16.46,0,0,1,9.37,28.86Z"/></svg>
+          </div>
+          <p class="text-gray-200 leading-relaxed">"Very well-written and detailed guide. Has photos, tips, tricks and everything. My idea of goldmaking turned upside down based on what I thought I knew. Made my first gold already."</p>
+          <p class="text-sm text-gray-500/70 mt-auto">Anonymous buyer &middot; Verified purchase</p>
+        </div>
+        <div class="relative bg-white/5 border border-white/10 rounded-2xl p-8 pt-10 flex flex-col gap-4 fade-in">
+          <span class="absolute -top-5 left-6 text-7xl text-primary/25 font-serif leading-none select-none">&ldquo;</span>
+          <div class="flex gap-1.5 mb-1">
+            <svg class="w-6 h-6 fill-primary drop-shadow-[0_0_3px_rgba(255,196,0,0.4)]" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256"><path d="M234.29,114.85l-45,38.83L203,211.75a16.4,16.4,0,0,1-24.5,17.82L128,198.49,77.47,229.57A16.4,16.4,0,0,1,53,211.75l13.76-58.07-45-38.83A16.46,16.46,0,0,1,31.08,86l59-4.76,22.76-55.08a16.36,16.36,0,0,1,30.27,0l22.75,55.08,59,4.76a16.46,16.46,0,0,1,9.37,28.86Z"/></svg>
+            <svg class="w-6 h-6 fill-primary drop-shadow-[0_0_3px_rgba(255,196,0,0.4)]" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256"><path d="M234.29,114.85l-45,38.83L203,211.75a16.4,16.4,0,0,1-24.5,17.82L128,198.49,77.47,229.57A16.4,16.4,0,0,1,53,211.75l13.76-58.07-45-38.83A16.46,16.46,0,0,1,31.08,86l59-4.76,22.76-55.08a16.36,16.36,0,0,1,30.27,0l22.75,55.08,59,4.76a16.46,16.46,0,0,1,9.37,28.86Z"/></svg>
+            <svg class="w-6 h-6 fill-primary drop-shadow-[0_0_3px_rgba(255,196,0,0.4)]" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256"><path d="M234.29,114.85l-45,38.83L203,211.75a16.4,16.4,0,0,1-24.5,17.82L128,198.49,77.47,229.57A16.4,16.4,0,0,1,53,211.75l13.76-58.07-45-38.83A16.46,16.46,0,0,1,31.08,86l59-4.76,22.76-55.08a16.36,16.36,0,0,1,30.27,0l22.75,55.08,59,4.76a16.46,16.46,0,0,1,9.37,28.86Z"/></svg>
+            <svg class="w-6 h-6 fill-primary drop-shadow-[0_0_3px_rgba(255,196,0,0.4)]" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256"><path d="M234.29,114.85l-45,38.83L203,211.75a16.4,16.4,0,0,1-24.5,17.82L128,198.49,77.47,229.57A16.4,16.4,0,0,1,53,211.75l13.76-58.07-45-38.83A16.46,16.46,0,0,1,31.08,86l59-4.76,22.76-55.08a16.36,16.36,0,0,1,30.27,0l22.75,55.08,59,4.76a16.46,16.46,0,0,1,9.37,28.86Z"/></svg>
+            <svg class="w-6 h-6 fill-primary drop-shadow-[0_0_3px_rgba(255,196,0,0.4)]" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256"><path d="M234.29,114.85l-45,38.83L203,211.75a16.4,16.4,0,0,1-24.5,17.82L128,198.49,77.47,229.57A16.4,16.4,0,0,1,53,211.75l13.76-58.07-45-38.83A16.46,16.46,0,0,1,31.08,86l59-4.76,22.76-55.08a16.36,16.36,0,0,1,30.27,0l22.75,55.08,59,4.76a16.46,16.46,0,0,1,9.37,28.86Z"/></svg>
+          </div>
+          <p class="text-gray-200 leading-relaxed">"Very in-depth auction house guide"</p>
+          <p class="text-sm text-gray-500/70 mt-auto">Christian Filtenborg &middot; Verified purchase</p>
+        </div>
+        <div class="relative bg-white/5 border border-white/10 rounded-2xl p-8 pt-10 flex flex-col gap-4 fade-in">
+          <span class="absolute -top-5 left-6 text-7xl text-primary/25 font-serif leading-none select-none">&ldquo;</span>
+          <div class="flex gap-1.5 mb-1">
+            <svg class="w-6 h-6 fill-primary drop-shadow-[0_0_3px_rgba(255,196,0,0.4)]" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256"><path d="M234.29,114.85l-45,38.83L203,211.75a16.4,16.4,0,0,1-24.5,17.82L128,198.49,77.47,229.57A16.4,16.4,0,0,1,53,211.75l13.76-58.07-45-38.83A16.46,16.46,0,0,1,31.08,86l59-4.76,22.76-55.08a16.36,16.36,0,0,1,30.27,0l22.75,55.08,59,4.76a16.46,16.46,0,0,1,9.37,28.86Z"/></svg>
+            <svg class="w-6 h-6 fill-primary drop-shadow-[0_0_3px_rgba(255,196,0,0.4)]" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256"><path d="M234.29,114.85l-45,38.83L203,211.75a16.4,16.4,0,0,1-24.5,17.82L128,198.49,77.47,229.57A16.4,16.4,0,0,1,53,211.75l13.76-58.07-45-38.83A16.46,16.46,0,0,1,31.08,86l59-4.76,22.76-55.08a16.36,16.36,0,0,1,30.27,0l22.75,55.08,59,4.76a16.46,16.46,0,0,1,9.37,28.86Z"/></svg>
+            <svg class="w-6 h-6 fill-primary drop-shadow-[0_0_3px_rgba(255,196,0,0.4)]" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256"><path d="M234.29,114.85l-45,38.83L203,211.75a16.4,16.4,0,0,1-24.5,17.82L128,198.49,77.47,229.57A16.4,16.4,0,0,1,53,211.75l13.76-58.07-45-38.83A16.46,16.46,0,0,1,31.08,86l59-4.76,22.76-55.08a16.36,16.36,0,0,1,30.27,0l22.75,55.08,59,4.76a16.46,16.46,0,0,1,9.37,28.86Z"/></svg>
+            <svg class="w-6 h-6 fill-primary drop-shadow-[0_0_3px_rgba(255,196,0,0.4)]" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256"><path d="M234.29,114.85l-45,38.83L203,211.75a16.4,16.4,0,0,1-24.5,17.82L128,198.49,77.47,229.57A16.4,16.4,0,0,1,53,211.75l13.76-58.07-45-38.83A16.46,16.46,0,0,1,31.08,86l59-4.76,22.76-55.08a16.36,16.36,0,0,1,30.27,0l22.75,55.08,59,4.76a16.46,16.46,0,0,1,9.37,28.86Z"/></svg>
+            <svg class="w-6 h-6 fill-primary drop-shadow-[0_0_3px_rgba(255,196,0,0.4)]" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256"><path d="M234.29,114.85l-45,38.83L203,211.75a16.4,16.4,0,0,1-24.5,17.82L128,198.49,77.47,229.57A16.4,16.4,0,0,1,53,211.75l13.76-58.07-45-38.83A16.46,16.46,0,0,1,31.08,86l59-4.76,22.76-55.08a16.36,16.36,0,0,1,30.27,0l22.75,55.08,59,4.76a16.46,16.46,0,0,1,9.37,28.86Z"/></svg>
+          </div>
+          <p class="text-gray-200 leading-relaxed">"Super easy to read and amazing work, it was fun to read and understand. Thumbs up from me"</p>
+          <p class="text-sm text-gray-500/70 mt-auto">Patrick Christiansen &middot; Verified purchase</p>
+        </div>
+      </div>
+    </section>
+    <!-- Benefits Section -->
+    <section class="bg-gradient-to-b from-[#0a0a0a] to-[#111214] py-20 md:py-28 px-4">
+      <div class="container mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5 max-w-6xl">
+        <a href="https://magicuz.gumroad.com/" class="group relative bg-[#0f0f10] border border-white/[0.07] rounded-2xl p-7 flex flex-col gap-5 hover:border-primary/25 hover:shadow-[0_0_32px_-8px_rgba(255,196,0,0.18)] transition-all duration-300 fade-in overflow-hidden">
+          <div class="absolute top-0 inset-x-0 h-px bg-gradient-to-r from-transparent via-primary/25 to-transparent"></div>
+          <div class="w-12 h-12 rounded-xl bg-primary/[0.08] flex items-center justify-center group-hover:bg-primary/[0.15] transition-colors shrink-0">
+            <svg class="w-6 h-6 fill-primary drop-shadow-[0_0_6px_rgba(255,196,0,0.4)]" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256"><path d="M208,24H72A32,32,0,0,0,40,56V224a8,8,0,0,0,8,8H192a8,8,0,0,0,0-16H56a16,16,0,0,1,16-16H208a8,8,0,0,0,8-8V32A8,8,0,0,0,208,24ZM120,40h48v72L148.79,97.6a8,8,0,0,0-9.6,0L120,112Zm80,144H72a31.82,31.82,0,0,0-16,4.29V56A16,16,0,0,1,72,40h32v88a8,8,0,0,0,12.8,6.4L144,114l27.21,20.4A8,8,0,0,0,176,136a8,8,0,0,0,8-8V40h16Z"></path></svg>
+          </div>
+          <div class="flex flex-col gap-2">
+            <h3 class="text-base font-bold text-white">Subscribe once</h3>
+            <p class="text-sm text-gray-500 leading-relaxed">Subscribe once, always get free updates as new content is added</p>
+          </div>
         </a>
+        <a href="https://discord.gg/w7ZejEUs8H" class="group relative bg-[#0f0f10] border border-white/[0.07] rounded-2xl p-7 flex flex-col gap-5 hover:border-primary/25 hover:shadow-[0_0_32px_-8px_rgba(255,196,0,0.18)] transition-all duration-300 fade-in overflow-hidden">
+          <div class="absolute top-0 inset-x-0 h-px bg-gradient-to-r from-transparent via-primary/25 to-transparent"></div>
+          <div class="w-12 h-12 rounded-xl bg-primary/[0.08] flex items-center justify-center group-hover:bg-primary/[0.15] transition-colors shrink-0">
+            <svg class="w-6 h-6 fill-primary drop-shadow-[0_0_6px_rgba(255,196,0,0.4)]" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><path d="M524.531 69.836a1.5 1.5 0 0 0-.764-.7A485.065 485.065 0 0 0 404.081 32.03a1.816 1.816 0 0 0-1.923.91 337.461 337.461 0 0 0-14.9 30.6 447.848 447.848 0 0 0-134.426 0 309.541 309.541 0 0 0-15.135-30.6 1.89 1.89 0 0 0-1.924-.91 483.689 483.689 0 0 0-119.688 37.107 1.712 1.712 0 0 0-.788.676C39.068 183.651 18.186 294.69 28.43 404.354a2.016 2.016 0 0 0 .765 1.375 487.666 487.666 0 0 0 146.825 74.189 1.9 1.9 0 0 0 2.063-.676A348.2 348.2 0 0 0 208.12 430.4a1.86 1.86 0 0 0-1.019-2.588 321.173 321.173 0 0 1-45.868-21.853 1.885 1.885 0 0 1-.185-3.126 251.047 251.047 0 0 0 9.109-7.137 1.819 1.819 0 0 1 1.9-.256c96.229 43.917 200.41 43.917 295.5 0a1.812 1.812 0 0 1 1.924.233 234.533 234.533 0 0 0 9.132 7.16 1.884 1.884 0 0 1-.162 3.126 301.407 301.407 0 0 1-45.89 21.83 1.875 1.875 0 0 0-1 2.611 391.055 391.055 0 0 0 30.014 48.815 1.864 1.864 0 0 0 2.063.7A486.048 486.048 0 0 0 610.7 405.729a1.882 1.882 0 0 0 .765-1.352c12.264-126.783-20.532-236.912-86.934-334.541ZM222.491 337.58c-28.972 0-52.844-26.587-52.844-59.239s23.409-59.241 52.844-59.241c29.665 0 53.306 26.82 52.843 59.239 0 32.654-23.41 59.241-52.843 59.241Zm195.38 0c-28.971 0-52.843-26.587-52.843-59.239s23.409-59.241 52.843-59.241c29.667 0 53.307 26.82 52.844 59.239 0 32.654-23.177 59.241-52.844 59.241Z"/></svg>
+          </div>
+          <div class="flex flex-col gap-2">
+            <h3 class="text-base font-bold text-white">Join Discord</h3>
+            <p class="text-sm text-gray-500 leading-relaxed">Join the gold-making community with 8,300+ members</p>
+          </div>
+        </a>
+        <a href="https://magicuz.gumroad.com/" class="group relative bg-[#0f0f10] border border-white/[0.07] rounded-2xl p-7 flex flex-col gap-5 hover:border-primary/25 hover:shadow-[0_0_32px_-8px_rgba(255,196,0,0.18)] transition-all duration-300 fade-in overflow-hidden">
+          <div class="absolute top-0 inset-x-0 h-px bg-gradient-to-r from-transparent via-primary/25 to-transparent"></div>
+          <div class="w-12 h-12 rounded-xl bg-primary/[0.08] flex items-center justify-center group-hover:bg-primary/[0.15] transition-colors shrink-0">
+            <svg class="w-6 h-6 fill-primary drop-shadow-[0_0_6px_rgba(255,196,0,0.4)]" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50"><path d="M 25 2 C 20.793 2 16.851455 3.1305957 13.458984 5.1035156 C 12.974346 5.3853613 12.500438 5.684625 12.039062 6 L 6 6 L 6 12.039062 C 3.477 15.730063 2 20.192 2 25 C 2 29.808 3.477 34.269937 6 37.960938 L 6 44 L 12.039062 44 C 15.730063 46.523 20.192 48 25 48 C 29.808 48 34.269937 46.523 37.960938 44 L 44 44 L 44 37.960938 C 44.315375 37.499562 44.614639 37.025654 44.896484 36.541016 C 46.869404 33.148545 48 29.207 48 25 C 48 24.399 47.976955 23.804201 47.931641 23.214844 C 47.614439 19.089342 46.207625 15.268688 44 12.039062 L 44 6 L 37.960938 6 C 34.269938 3.477 29.808 2 25 2 z M 10.998047 14.958984 L 18.699219 14.958984 C 18.349219 15.841984 18.466219 17.609187 18.699219 18.492188 L 21.265625 26.324219 L 25 16.726562 L 28.732422 26.324219 L 31.300781 18.492188 C 31.533781 17.609188 31.650781 15.841984 31.300781 14.958984 L 39 14.958984 C 38.176 15.965984 37.583953 17.104453 37.251953 18.314453 L 34.099609 32.507812 C 33.866609 33.390813 33.982031 35.156062 34.332031 36.039062 L 26.865234 36.039062 C 26.865234 36.039062 27.006234 35.465438 26.865234 34.273438 C 26.725234 33.071438 25 28.091797 25 28.091797 C 25 28.091797 23.273813 33.072437 23.132812 34.273438 C 22.991813 35.465438 23.132812 36.039063 23.132812 36.039062 L 15.666016 36.039062 C 16.016016 35.156062 16.132438 33.388859 15.898438 32.505859 L 12.748047 18.314453 C 12.416047 17.104453 11.822047 15.965984 10.998047 14.958984 z"/></svg>
+          </div>
+          <div class="flex flex-col gap-2">
+            <h3 class="text-base font-bold text-white">Never Pay Again</h3>
+            <p class="text-sm text-gray-500 leading-relaxed">Never pay for WoW game time again — earn enough gold to cover your sub</p>
+          </div>
+        </a>
+        <a href="https://magicuz.gumroad.com/" class="group relative bg-[#0f0f10] border border-white/[0.07] rounded-2xl p-7 flex flex-col gap-5 hover:border-primary/25 hover:shadow-[0_0_32px_-8px_rgba(255,196,0,0.18)] transition-all duration-300 fade-in overflow-hidden">
+          <div class="absolute top-0 inset-x-0 h-px bg-gradient-to-r from-transparent via-primary/25 to-transparent"></div>
+          <div class="w-12 h-12 rounded-xl bg-primary/[0.08] flex items-center justify-center group-hover:bg-primary/[0.15] transition-colors shrink-0">
+            <svg class="w-6 h-6 text-primary drop-shadow-[0_0_6px_rgba(255,196,0,0.4)]" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M12 18v-5.25m0 0a6.01 6.01 0 001.5-.189m-1.5.189a6.01 6.01 0 01-1.5-.189m3.75 7.478a12.06 12.06 0 01-4.5 0m3.75 2.383a14.406 14.406 0 01-3 0M14.25 18v-.192c0-.983.658-1.823 1.508-2.316a7.5 7.5 0 10-7.517 0c.85.493 1.509 1.333 1.509 2.316V18"/></svg>
+          </div>
+          <div class="flex flex-col gap-2">
+            <h3 class="text-base font-bold text-white">Think Like a Billionaire</h3>
+            <p class="text-sm text-gray-500 leading-relaxed">Get inside the mind of WoW's first billionaire gold maker</p>
+          </div>
+        </a>
+      </div>
+    </section>
 
-        <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
-          <svg class="h-10 w-10 fill-primary/50 hover:fill-primary transition ease-in-out duration-300"
-            xmlns="http://www.w3.org/2000/svg" xml:space="preserve" fill-rule="evenodd" stroke-linejoin="round"
+    <!-- Gold History Section -->
+    <section class="py-20 md:py-28 px-4 overflow-hidden">
+      <div class="max-w-6xl mx-auto">
+        <h2 class="text-4xl lg:text-5xl font-bold text-center text-white mb-4 fade-in">The Goldmaking <span class="text-primary">Journey</span></h2>
+        <p class="text-center text-gray-400 text-base md:text-lg mb-14 max-w-2xl mx-auto fade-in">Sustainable goldmaking isn't linear. It compounds when systems are built and applied over time.</p>
+
+        <!-- DESKTOP: Growth Curve (hidden below md) -->
+        <div class="hidden md:block fade-in">
+          <div class="relative w-full" style="height: 560px;">
+            <!-- SVG Curve -->
+            <svg class="absolute inset-0 w-full h-full" viewBox="0 0 1000 560" preserveAspectRatio="none" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <defs>
+                <filter id="curveGlow" x="-20%" y="-20%" width="140%" height="140%">
+                  <feGaussianBlur stdDeviation="6" result="blur"/>
+                  <feMerge>
+                    <feMergeNode in="blur"/>
+                    <feMergeNode in="SourceGraphic"/>
+                  </feMerge>
+                </filter>
+                <linearGradient id="curveFill" x1="0" y1="0" x2="0" y2="1">
+                  <stop offset="0%" stop-color="#FFC400" stop-opacity="0.12"/>
+                  <stop offset="100%" stop-color="#FFC400" stop-opacity="0"/>
+                </linearGradient>
+                <linearGradient id="curveStroke" x1="0" y1="0" x2="1" y2="0">
+                  <stop offset="0%" stop-color="#FFC400" stop-opacity="0.4"/>
+                  <stop offset="40%" stop-color="#FFC400" stop-opacity="0.7"/>
+                  <stop offset="100%" stop-color="#FFC400" stop-opacity="1"/>
+                </linearGradient>
+              </defs>
+              <!-- Filled area below curve -->
+              <path d="M 80 470 C 200 460, 350 410, 450 370 C 550 330, 650 250, 730 180 C 780 140, 870 115, 920 110 L 1000 110 L 1000 560 L 0 560 L 0 470 Z" fill="url(#curveFill)"/>
+              <!-- Curve line -->
+              <path d="M 80 470 C 200 460, 350 410, 450 370 C 550 330, 650 250, 730 180 C 780 140, 870 115, 920 110" stroke="url(#curveStroke)" stroke-width="3" stroke-linecap="round" filter="url(#curveGlow)"/>
+            </svg>
+
+            <!-- Milestone dots -->
+            <div class="absolute z-10 w-3.5 h-3.5 rounded-full bg-primary shadow-[0_0_12px_4px_rgba(255,196,0,0.5)]" style="left: calc(8% - 7px); top: calc(83.9% - 7px);"></div>
+            <div class="absolute z-10 w-3.5 h-3.5 rounded-full bg-primary shadow-[0_0_12px_4px_rgba(255,196,0,0.5)]" style="left: calc(45% - 7px); top: calc(66% - 7px);"></div>
+            <div class="absolute z-10 w-3.5 h-3.5 rounded-full bg-primary shadow-[0_0_12px_4px_rgba(255,196,0,0.5)]" style="left: calc(73% - 7px); top: calc(32.1% - 7px);"></div>
+            <div class="absolute z-10 w-4 h-4 rounded-full bg-primary shadow-[0_0_16px_5px_rgba(255,196,0,0.6)]" style="left: calc(92% - 8px); top: calc(19.6% - 8px);"></div>
+
+            <!-- Milestone Labels (northwest of each dot, z-index above SVG) -->
+            <!-- Point 1: Foundation -->
+            <div class="absolute z-10" style="left: 2%; top: 62%;">
+              <p class="text-xl font-bold text-primary">Foundation</p>
+              <p class="text-base font-bold text-white">Learning the Economy</p>
+              <p class="text-sm text-gray-500 mt-1">Vanilla – TBC · 1,000g → 10,000g</p>
+            </div>
+
+            <!-- Point 2: Systems -->
+            <div class="absolute z-10" style="left: 28%; top: 50%;">
+              <p class="text-xl font-bold text-primary">Systems</p>
+              <p class="text-base font-bold text-white">Patterns Begin to Repeat</p>
+              <p class="text-sm text-gray-500 mt-1">WotLK – MoP · 100k → 2M gold</p>
+            </div>
+
+            <!-- Point 3: Freedom -->
+            <div class="absolute z-10" style="left: 53%; top: 18%;">
+              <p class="text-xl font-bold text-primary">Freedom</p>
+              <p class="text-base font-bold text-white">Gold Sustains Itself</p>
+              <p class="text-sm text-gray-500 mt-1">WoD – Legion · 10M → 150M gold</p>
+            </div>
+
+            <!-- Point 4: 4.6B -->
+            <div class="absolute z-10 text-right" style="right: 2%; top: 0%;">
+              <p class="text-3xl font-bold text-primary drop-shadow-[0_0_14px_rgba(255,196,0,0.5)]">4.6B+ Gold</p>
+              <p class="text-base font-bold text-white">Built Over Time</p>
+              <p class="text-sm text-gray-500 mt-1">Battle for Azeroth · 4,600,000,000g</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- MOBILE: Vertical Timeline (hidden at md+) -->
+        <div class="md:hidden fade-in">
+          <div class="relative pl-10">
+            <!-- Vertical line -->
+            <div class="absolute left-[11px] top-2 bottom-2 w-0.5 bg-gradient-to-b from-primary/40 via-primary/25 to-primary/70 shadow-[0_0_8px_rgba(255,196,0,0.2)]"></div>
+
+            <!-- Phase 1 -->
+            <div class="relative mb-10">
+              <div class="absolute -left-[34px] top-1.5 w-3.5 h-3.5 rounded-full bg-primary shadow-[0_0_10px_rgba(255,196,0,0.5)]"></div>
+              <p class="text-xl font-bold text-primary">Foundation</p>
+              <p class="text-base font-bold text-white mt-0.5">Learning the Economy</p>
+              <p class="text-sm text-gray-500 mt-1">Vanilla – TBC · 1,000g → 10,000g</p>
+            </div>
+
+            <!-- Phase 2 -->
+            <div class="relative mb-10">
+              <div class="absolute -left-[34px] top-1.5 w-3.5 h-3.5 rounded-full bg-primary shadow-[0_0_10px_rgba(255,196,0,0.5)]"></div>
+              <p class="text-xl font-bold text-primary">Systems</p>
+              <p class="text-base font-bold text-white mt-0.5">Patterns Begin to Repeat</p>
+              <p class="text-sm text-gray-500 mt-1">WotLK – MoP · 100k → 2M gold</p>
+            </div>
+
+            <!-- Phase 3 -->
+            <div class="relative mb-10">
+              <div class="absolute -left-[34px] top-1.5 w-3.5 h-3.5 rounded-full bg-primary shadow-[0_0_10px_rgba(255,196,0,0.5)]"></div>
+              <p class="text-xl font-bold text-primary">Freedom</p>
+              <p class="text-base font-bold text-white mt-0.5">Gold Sustains Itself</p>
+              <p class="text-sm text-gray-500 mt-1">WoD – Legion · 10M → 150M gold</p>
+            </div>
+
+            <!-- Phase 4 -->
+            <div class="relative">
+              <div class="absolute -left-[35.5px] top-1 w-4.5 h-4.5 rounded-full bg-primary shadow-[0_0_16px_rgba(255,196,0,0.6)]"></div>
+              <p class="text-2xl font-bold text-primary drop-shadow-[0_0_10px_rgba(255,196,0,0.4)]">4.6B+ Gold</p>
+              <p class="text-base font-bold text-white mt-0.5">Built Over Time</p>
+              <p class="text-sm text-gray-500 mt-1">Battle for Azeroth · 4,600,000,000g</p>
+            </div>
+          </div>
+        </div>
+
+        <p class="italic text-gray-500 text-sm md:text-base text-center mt-14 fade-in">Not a grind. A structure. Built to last across expansions.</p>
+      </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <style>
+      .faq-item.is-open { border-color: rgba(255,196,0,0.18) !important; box-shadow: 0 0 28px -10px rgba(255,196,0,0.12); }
+      .faq-item.is-open .faq-toggle { background: rgba(255,196,0,0.025); }
+      .faq-item .faq-content { border-top: 1px solid rgba(255,255,255,0.05); }
+    </style>
+    <section class="bg-gradient-to-b from-[#111214] to-[#0a0a0a] py-20 md:py-28 px-4">
+      <div class="max-w-3xl mx-auto">
+        <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold text-center text-white mb-4 fade-in">Frequently Asked <span class="text-primary">Questions</span></h2>
+        <p class="text-center text-gray-500 mb-12 text-base md:text-lg fade-in">Everything you need to know before buying</p>
+        <div class="space-y-3 fade-in" id="faq-accordion">
+          <div class="faq-item bg-[#0f0f10] border border-white/[0.07] rounded-2xl overflow-hidden transition-all duration-300">
+            <button class="faq-toggle w-full flex items-center justify-between px-6 py-5 text-left transition-colors duration-200">
+              <span class="text-base font-semibold text-white pr-4">Does the guide work for the current expansion?</span>
+              <span class="shrink-0 w-7 h-7 rounded-lg bg-white/[0.05] flex items-center justify-center transition-colors duration-200">
+                <svg class="faq-chevron w-4 h-4 text-primary transition-transform duration-300" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5"/></svg>
+              </span>
+            </button>
+            <div class="faq-content hidden px-6 py-5">
+              <p class="text-sm text-gray-500 leading-relaxed">Yes. The guide is regularly updated with each major patch and expansion. The core goldmaking principles are timeless, and specific strategies are kept current with the latest market changes. You get all future updates for free.</p>
+            </div>
+          </div>
+          <div class="faq-item bg-[#0f0f10] border border-white/[0.07] rounded-2xl overflow-hidden transition-all duration-300">
+            <button class="faq-toggle w-full flex items-center justify-between px-6 py-5 text-left transition-colors duration-200">
+              <span class="text-base font-semibold text-white pr-4">Do I get free updates?</span>
+              <span class="shrink-0 w-7 h-7 rounded-lg bg-white/[0.05] flex items-center justify-center transition-colors duration-200">
+                <svg class="faq-chevron w-4 h-4 text-primary transition-transform duration-300" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5"/></svg>
+              </span>
+            </button>
+            <div class="faq-content hidden px-6 py-5">
+              <p class="text-sm text-gray-500 leading-relaxed">Absolutely. Once you purchase the guide, every future update is free. As new expansions and patches come out, the guide is updated with fresh strategies — and you'll have access to all of it at no extra cost.</p>
+            </div>
+          </div>
+          <div class="faq-item bg-[#0f0f10] border border-white/[0.07] rounded-2xl overflow-hidden transition-all duration-300">
+            <button class="faq-toggle w-full flex items-center justify-between px-6 py-5 text-left transition-colors duration-200">
+              <span class="text-base font-semibold text-white pr-4">What format is the guide in?</span>
+              <span class="shrink-0 w-7 h-7 rounded-lg bg-white/[0.05] flex items-center justify-center transition-colors duration-200">
+                <svg class="faq-chevron w-4 h-4 text-primary transition-transform duration-300" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5"/></svg>
+              </span>
+            </button>
+            <div class="faq-content hidden px-6 py-5">
+              <p class="text-sm text-gray-500 leading-relaxed">The guide is delivered as a PDF that you can read on any device — computer, tablet, or phone. It includes detailed screenshots, step-by-step instructions, and easy-to-follow layouts.</p>
+            </div>
+          </div>
+          <div class="faq-item bg-[#0f0f10] border border-white/[0.07] rounded-2xl overflow-hidden transition-all duration-300">
+            <button class="faq-toggle w-full flex items-center justify-between px-6 py-5 text-left transition-colors duration-200">
+              <span class="text-base font-semibold text-white pr-4">Can I get a refund?</span>
+              <span class="shrink-0 w-7 h-7 rounded-lg bg-white/[0.05] flex items-center justify-center transition-colors duration-200">
+                <svg class="faq-chevron w-4 h-4 text-primary transition-transform duration-300" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5"/></svg>
+              </span>
+            </button>
+            <div class="faq-content hidden px-6 py-5">
+              <p class="text-sm text-gray-500 leading-relaxed">Yes, Gumroad offers a 30-day refund policy. If you're not satisfied with the guide, you can request a refund through Gumroad's platform — no questions asked.</p>
+            </div>
+          </div>
+          <div class="faq-item bg-[#0f0f10] border border-white/[0.07] rounded-2xl overflow-hidden transition-all duration-300">
+            <button class="faq-toggle w-full flex items-center justify-between px-6 py-5 text-left transition-colors duration-200">
+              <span class="text-base font-semibold text-white pr-4">Do I need any addons?</span>
+              <span class="shrink-0 w-7 h-7 rounded-lg bg-white/[0.05] flex items-center justify-center transition-colors duration-200">
+                <svg class="faq-chevron w-4 h-4 text-primary transition-transform duration-300" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5"/></svg>
+              </span>
+            </button>
+            <div class="faq-content hidden px-6 py-5">
+              <p class="text-sm text-gray-500 leading-relaxed">The guide covers strategies using TradeSkillMaster (TSM) and other free addons. A full TSM setup walkthrough is included so you can get started even if you've never used it before. Some methods work without any addons at all.</p>
+            </div>
+          </div>
+          <div class="faq-item bg-[#0f0f10] border border-white/[0.07] rounded-2xl overflow-hidden transition-all duration-300">
+            <button class="faq-toggle w-full flex items-center justify-between px-6 py-5 text-left transition-colors duration-200">
+              <span class="text-base font-semibold text-white pr-4">How much gold can I realistically make?</span>
+              <span class="shrink-0 w-7 h-7 rounded-lg bg-white/[0.05] flex items-center justify-center transition-colors duration-200">
+                <svg class="faq-chevron w-4 h-4 text-primary transition-transform duration-300" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5"/></svg>
+              </span>
+            </button>
+            <div class="faq-content hidden px-6 py-5">
+              <p class="text-sm text-gray-500 leading-relaxed">It depends on your time investment and server economy. Most buyers report earning enough for their monthly game time within the first week. Dedicated goldmakers using advanced strategies from the 100M guide can earn millions per week.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Final CTA Section -->
+    <section class="py-20 md:py-28 px-4">
+      <div class="max-w-4xl mx-auto text-center fade-in">
+        <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-4">Ready to Start <span class="text-primary">Making Gold?</span></h2>
+        <p class="text-gray-400 text-base md:text-lg mb-12 max-w-2xl mx-auto">Choose the guide that matches your ambitions and start building your WoW fortune today.</p>
+        <div class="flex flex-col sm:flex-row gap-6 justify-center items-center">
+          <a class="flex flex-col items-center gap-2 px-10 py-6 bg-primary border-2 border-primary hover:bg-transparent hover:text-primary transition ease-in-out duration-300 rounded-xl text-secondary group"
+            href="https://magicuz.gumroad.com/l/magicuz">
+            <span class="text-lg font-bold group-hover:text-primary">10M Gold Guide</span>
+            <span class="text-2xl font-bold group-hover:text-primary">$39.99 a year</span>
+          </a>
+          <a class="flex flex-col items-center gap-2 px-10 py-6 border-2 border-primary/60 hover:bg-primary hover:text-secondary transition ease-in-out duration-300 rounded-xl text-primary group"
+            href="https://magicuz.gumroad.com/l/MagicuzOne">
+            <span class="text-lg font-bold">100M Gold Guide</span>
+            <span class="text-2xl font-bold">$59.99 a year</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+  <footer class="border-t border-white/10">
+    <div class="container mx-auto py-12 px-4 flex flex-col items-center justify-center gap-8">
+      <img src="/public/img/logo.png" alt="Magicuz Gold Guide" class="h-12 sm:h-16">
+      <div class="flex flex-wrap justify-center gap-4">
+        <a href="https://twitter.com/MagicuzGold" target="_blank" rel="noopener noreferrer" aria-label="Twitter">
+          <svg class="h-8 w-8 fill-primary/50 hover:fill-primary transition ease-in-out duration-300"
+            xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" stroke-linejoin="round"
             stroke-miterlimit="2" clip-rule="evenodd" viewBox="0 0 512 512">
             <path fill-rule="nonzero"
               d="M161.014 464.013c193.208 0 298.885-160.071 298.885-298.885 0-4.546 0-9.072-.307-13.578A213.737 213.737 0 0 0 512 97.176a209.705 209.705 0 0 1-60.334 16.527 105.426 105.426 0 0 0 46.182-58.102 210.548 210.548 0 0 1-66.703 25.498 105.184 105.184 0 0 0-76.593-33.112c-57.682 0-105.145 47.464-105.145 105.144 0 8.002.914 15.979 2.722 23.773-84.418-4.231-163.18-44.161-216.494-109.752-27.724 47.726-13.379 109.576 32.522 140.226A104.258 104.258 0 0 1 20.48 194.23v1.331c.014 49.814 35.447 93.111 84.275 102.974a104.898 104.898 0 0 1-47.431 1.802c13.727 42.685 53.311 72.108 98.14 72.95a210.83 210.83 0 0 1-130.458 45.056A213.688 213.688 0 0 1 0 416.827a297.42 297.42 0 0 0 161.014 47.104" />
           </svg>
         </a>
-
-        <a href="https://youtube.com" target="_blank" rel="noopener noreferrer">
-          <svg class="h-10 w-10 fill-primary/50 hover:fill-primary transition ease-in-out duration-300"
-            xmlns="http://www.w3.org/2000/svg" xml:space="preserve" fill-rule="evenodd" stroke-linejoin="round"
+        <a href="https://www.youtube.com/channel/UCzekTw17OGqOdwO9mFzBwFA?sub_confirmation=1" target="_blank" rel="noopener noreferrer" aria-label="YouTube">
+          <svg class="h-8 w-8 fill-primary/50 hover:fill-primary transition ease-in-out duration-300"
+            xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" stroke-linejoin="round"
             stroke-miterlimit="2" clip-rule="evenodd" viewBox="0 0 512 512">
             <path fill-rule="nonzero"
               d="M501.303 132.765c-5.887-22.03-23.235-39.377-45.265-45.265C416.106 76.8 256 76.8 256 76.8s-160.107 0-200.039 10.7c-22.026 5.888-39.377 23.235-45.264 45.265C0 172.693 0 256.003 0 256.003s0 83.308 10.697 123.232c5.887 22.03 23.238 39.382 45.264 45.269C95.893 435.2 256 435.2 256 435.2s160.106 0 200.038-10.696c22.03-5.887 39.378-23.239 45.265-45.269 10.696-39.924 10.696-123.232 10.696-123.232s0-83.31-10.696-123.238ZM204.797 332.804V179.201l133.019 76.802-133.019 76.801Z" />
           </svg>
         </a>
-
-        <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
-          <svg class="h-10 w-10 fill-primary/50 hover:fill-primary transition ease-in-out duration-300"
-            xmlns="http://www.w3.org/2000/svg" xml:space="preserve" viewBox="0 0 56.7 56.7">
-            <path
-              d="M28.2 16.7c-7 0-12.8 5.7-12.8 12.8s5.7 12.8 12.8 12.8S41 36.5 41 29.5s-5.8-12.8-12.8-12.8zm0 21c-4.5 0-8.2-3.7-8.2-8.2s3.7-8.2 8.2-8.2 8.2 3.7 8.2 8.2-3.7 8.2-8.2 8.2z" />
-            <circle cx="41.5" cy="16.4" r="2.9" />
-            <path
-              d="M49 8.9c-2.6-2.7-6.3-4.1-10.5-4.1H17.9c-8.7 0-14.5 5.8-14.5 14.5v20.5c0 4.3 1.4 8 4.2 10.7 2.7 2.6 6.3 3.9 10.4 3.9h20.4c4.3 0 7.9-1.4 10.5-3.9 2.7-2.6 4.1-6.3 4.1-10.6V19.3c0-4.2-1.4-7.8-4-10.4zm-.4 31c0 3.1-1.1 5.6-2.9 7.3s-4.3 2.6-7.3 2.6H18c-3 0-5.5-.9-7.3-2.6C8.9 45.4 8 42.9 8 39.8V19.3c0-3 .9-5.5 2.7-7.3 1.7-1.7 4.3-2.6 7.3-2.6h20.6c3 0 5.5.9 7.3 2.7 1.7 1.8 2.7 4.3 2.7 7.2v20.6z" />
-          </svg>
-        </a>
-
-        <a href="https://twitch.tv" target="_blank" rel="noopener noreferrer">
-          <svg class="h-10 w-10 fill-primary/50 hover:fill-primary transition ease-in-out duration-300"
-            xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-            <path fill="none" d="M0 0h24v24H0z" />
-            <path
-              d="M21 3v11.74l-4.696 4.695h-3.913l-2.437 2.348H6.913v-2.348H3V6.13L4.227 3H21zm-1.565 1.565H6.13v11.74h3.13v2.347l2.349-2.348h4.695l3.13-3.13V4.565zm-3.13 3.13v4.696h-1.566V7.696h1.565zm-3.914 0v4.696h-1.565V7.696h1.565z" />
-          </svg>
-        </a>
-
-        <a href="https://discord.com" target="_blank" rel="noopener noreferrer">
-          <svg class="h-10 w-10 fill-primary/50 hover:fill-primary transition ease-in-out duration-300"
+        <a href="https://discord.gg/w7ZejEUs8H" target="_blank" rel="noopener noreferrer" aria-label="Discord">
+          <svg class="h-8 w-8 fill-primary/50 hover:fill-primary transition ease-in-out duration-300"
             xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512">
             <path
               d="M524.531 69.836a1.5 1.5 0 0 0-.764-.7A485.065 485.065 0 0 0 404.081 32.03a1.816 1.816 0 0 0-1.923.91 337.461 337.461 0 0 0-14.9 30.6 447.848 447.848 0 0 0-134.426 0 309.541 309.541 0 0 0-15.135-30.6 1.89 1.89 0 0 0-1.924-.91 483.689 483.689 0 0 0-119.688 37.107 1.712 1.712 0 0 0-.788.676C39.068 183.651 18.186 294.69 28.43 404.354a2.016 2.016 0 0 0 .765 1.375 487.666 487.666 0 0 0 146.825 74.189 1.9 1.9 0 0 0 2.063-.676A348.2 348.2 0 0 0 208.12 430.4a1.86 1.86 0 0 0-1.019-2.588 321.173 321.173 0 0 1-45.868-21.853 1.885 1.885 0 0 1-.185-3.126 251.047 251.047 0 0 0 9.109-7.137 1.819 1.819 0 0 1 1.9-.256c96.229 43.917 200.41 43.917 295.5 0a1.812 1.812 0 0 1 1.924.233 234.533 234.533 0 0 0 9.132 7.16 1.884 1.884 0 0 1-.162 3.126 301.407 301.407 0 0 1-45.89 21.83 1.875 1.875 0 0 0-1 2.611 391.055 391.055 0 0 0 30.014 48.815 1.864 1.864 0 0 0 2.063.7A486.048 486.048 0 0 0 610.7 405.729a1.882 1.882 0 0 0 .765-1.352c12.264-126.783-20.532-236.912-86.934-334.541ZM222.491 337.58c-28.972 0-52.844-26.587-52.844-59.239s23.409-59.241 52.844-59.241c29.665 0 53.306 26.82 52.843 59.239 0 32.654-23.41 59.241-52.843 59.241Zm195.38 0c-28.971 0-52.843-26.587-52.843-59.239s23.409-59.241 52.843-59.241c29.667 0 53.307 26.82 52.844 59.239 0 32.654-23.177 59.241-52.844 59.241Z" />
           </svg>
         </a>
-
-        <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
-          <svg class="h-10 w-10 fill-primary/50 hover:fill-primary transition ease-in-out duration-300"
-            xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40">
-            <path d="M23.75 9a8.25 8.25 0 1 1-8.26 8.26A8.26 8.26 0 0 1 23.75 9M9 31h4V9H9Z" />
+        <a href="https://www.facebook.com/MagicuzGoldGuide" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+          <svg class="h-8 w-8 fill-primary/50 hover:fill-primary transition ease-in-out duration-300"
+            xmlns="http://www.w3.org/2000/svg" viewBox="0 0 56.693 56.693">
+            <path
+              d="M40.43 21.739h-7.645v-5.014c0-1.883 1.248-2.322 2.127-2.322h5.395V6.125l-7.43-.029c-8.248 0-10.125 6.174-10.125 10.125v5.518h-4.77v8.53h4.77v24.137h10.033V30.269h6.77l.875-8.53z" />
           </svg>
         </a>
       </div>
-      <p class="text-xs md:text-sm text-gray-500">©
+      <p class="text-xs md:text-sm text-gray-500">&copy;
         <script>document.write(new Date().getFullYear())</script> Magicuz Gold Guide. All rights reserved.
       </p>
     </div>
   </footer>
   <script type="module" src="/src/main.js"></script>
 </body>
+
 
 </html>
