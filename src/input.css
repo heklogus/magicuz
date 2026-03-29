@@ -1,5 +1,14 @@
 @import "tailwindcss";
 
+@theme {
+    --color-primary: #FFC400;
+    --color-secondary: #292727;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
 @keyframes float {
   0%, 100% {
     transform: translateY(0);
@@ -11,6 +20,18 @@
 
 .animate-float {
   animation: float 4s ease-in-out infinite;
+}
+
+/* Fade-in on scroll — JS adds .fade-ready, so content is visible without JS */
+.fade-ready .fade-in {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+}
+
+.fade-ready .fade-in.visible {
+  opacity: 1;
+  transform: translateY(0);
 }
 
 /* Add responsive container padding */
@@ -42,90 +63,28 @@
   transition: all 0.3s ease-in-out;
 }
 
-/* Force include classes */
-.bg-header {
-  background-size: cover;
-  background-position: center;
-  background-image: url('/public/img/bg.png');
+.slideshow-container img:nth-child(4) {
+    animation-delay: 12s;
 }
 
-.header-background {
-      background-image: url('/bg.png');
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size: cover;
-    }
-
-    .slideshow-container {
-      position: relative;
-      width: 100%;
-      max-width: 800px;
-      height: 500px;
-      overflow: hidden;
-    }
-
-    @media (min-width: 1024px) {
-      .slideshow-container {
-        margin-right: 6rem;
-        /* 24 * 0.25rem = 6rem */
-      }
-    }
-
-    .slideshow-container img {
-      position: absolute;
-      width: 100%;
-      height: 100%;
-      object-fit: contain;
-      opacity: 0;
-      animation: fade 16s infinite;
-    }
-
-    .slideshow-container img:nth-child(1) {
-      animation-delay: 0s;
-    }
-
-    .slideshow-container img:nth-child(2) {
-      animation-delay: 4s;
-    }
-
-    .slideshow-container img:nth-child(3) {
-      animation-delay: 8s;
-    }
-
-    .slideshow-container img:nth-child(4) {
-      animation-delay: 12s;
-    }
-
-    @keyframes fade {
-      0% {
+@keyframes fade {
+    0% {
         opacity: 0;
-      }
+    }
 
-      5% {
+    5% {
         opacity: 1;
-      }
-
-      25% {
-        opacity: 1;
-      }
-
-      30% {
-        opacity: 0;
-      }
-
-      100% {
-        opacity: 0;
-      }
     }
 
-.text-primary {
-  color: #FFC400;
-}
+    25% {
+        opacity: 1;
+    }
 
-.bg-primary {
-  background-color: #FFC400;
-}
+    30% {
+        opacity: 0;
+    }
 
-.fill-primary {
-  fill: #FFC400;
+    100% {
+        opacity: 0;
+    }
 }
